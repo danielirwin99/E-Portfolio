@@ -13,22 +13,24 @@
       <nav>
         <div class="personal__logo">Daniel Irwin</div>
         <ul class="nav__link--list">
-          <li>
+          <li class="nav__link">
             <a
-              href=""
-              class="nav__link--anchor link__hover-effect link__hover-effect-black--black"
+              href="#languages"
+              class="nav__link--anchor 
+              link__hover-effect 
+              link__hover-effect-black--black"
               >Languages</a
             >
           </li>
-          <li>
+          <li class="nav__link">
             <a
-              href=""
+              href="#projects"
               class="nav__link--anchor link__hover-effect link__hover-effect-black--black"
               >Projects</a
             >
           </li>
-          <li>
-            <a href="" class="nav__link--anchor nav__link--anchor-primary"
+          <li class="nav__link">
+            <a href="mailto:danielirwin99@gmail.com" class="nav__link--anchor nav__link--anchor-primary"
               >Contact</a
             >
           </li>
@@ -37,7 +39,7 @@
       <div class="flex flex-1">
         <div class="about-me__info row">
           <div class="about-me__info--container">
-            <figure class="about-met__picture--mask">
+            <figure class="about-me__picture--mask">
               <img
                 src="./assets/assets/Self Portrait.jpg"
                 class="about-me__picture"
@@ -180,10 +182,14 @@
     </section>
     <footer>
       <div class="row footer__row">
-        <a href="#">
+        <a class="footer__anchor" href="#">
           <figure class="footer__logo">
           <img class="footer__img" src="./assets/assets/logo.svg" alt="my logo">
-        </figure></a>
+        </figure>
+      <span class="footer__logo--popper">
+        Top
+        <i class="fas fa-arrow-up"></i>
+      </span></a>
         <div class="footer__social--list">
           <a href="https://google.com" target="_blank" class="
           footer__social--link
@@ -204,7 +210,7 @@
           footer__social--link
           link__hover-effect
           link__hover-effect--white
-          " target="_blank" download="Daniel's Resume">Resume</a>
+          " target="_blank">Resume</a>
         </div>
         <div class="footer__copyright">Copyright 2022 Daniel Irwin</div>
       </div>
